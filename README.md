@@ -104,3 +104,4 @@ npm run build
 Docker Compose creates the separate `eve_test` database on first initialization. For an existing Compose volume, create it once with `docker compose exec db createdb -U eve eve_test`. The integration tests truncate tables in this test database. They cover auth, catalogue permissions, ownership, validation, price snapshots, payment outcomes, webhook replay, conflicting events, and concurrent duplicate delivery.
 
 With more time, I would add proper staff administration, provider-signed webhook requests with timestamp checks, pagination, structured request logging, observability, and a migration tool that tracks schema versions.
+# a3
